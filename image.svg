@@ -1,0 +1,138 @@
+<svg fill="none" viewBox="0 0 900 400" width="900" height="400" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+				@keyframes rotate {
+					0% {
+						transform: rotate(3deg);
+					}
+					100% {
+						transform: rotate(-3deg);
+					}
+				}
+
+				@keyframes gradientBackground {
+					0% {
+						background-position: 0% 50%;
+					}
+					50% {
+						background-position: 100% 50%;
+					}
+					100% {
+						background-position: 0% 50%;
+					}
+				}
+
+				@keyframes fadeIn {
+					0% {
+						opacity: 0;
+					}
+					66% {
+						opacity: 0;
+					}
+					100% {
+						opacity: 1;
+					}
+				}
+
+				.container {
+					font-family:
+						system-ui,
+						-apple-system,
+						'Segoe UI',
+						Roboto,
+						Helvetica,
+						Arial,
+						sans-serif,
+						'Apple Color Emoji',
+						'Segoe UI Emoji';
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					margin: 0;
+					width: 100%;
+					height: 400px;
+					background: linear-gradient(-45deg, #fc5c7d, #6a82fb, #05dfd7);
+					background-size: 600% 400%;
+					animation: gradientBackground 10s ease infinite;
+					border-radius: 10px;
+					color: white;
+					text-align: center;
+				}
+
+				.conteiner {
+				  margin: 0 auto; 
+				  width: 50%; 
+				  font-family: 'Comic Sans MS', cursive, sans-serif
+				}
+				
+				.header {
+				  display: flex; 
+				  justify-content: center;
+				  font-size: 2em; 
+				  animation: rotate ease-in-out 1s infinite alternate;
+				}
+				
+				.introduction {
+				  display: flex; 
+				  justify-content: center; 
+				  align-items: center; 
+				  flex-direction: column;
+				}
+				
+				.introduction__first {
+				  font-size:1.4em; 
+				  font-weight: 600;
+				}
+				
+				.introduction__second {
+				  font-size:1em; 
+				  font-weight: 100;
+				}
+				
+				.list-container {
+				  display: flex; 
+				  justify-content: space-around; 
+				  font-family: 'Verdana', sans-serif; 
+				  letter-spasing: 1px
+				}
+				
+				.about-me {
+				  list-style: '⭐'
+				}
+				
+				.experience {
+				  list-style: '✨'
+				}									
+			</style>
+			<div class="container">
+				<div class="header">
+					<h1>Hi all!</h1>
+				</div>
+				<div class="introduction">
+					<div class="introduction__first">
+						On my GitHub profile you can find all the information about me
+					</div>
+					<div class="introduction__second">
+						But I can also tell you a little more about me and my experience:
+					</div>
+				</div>
+				<div class="list-container">
+					<ul class="about-me">
+						<li>I work hard to rise my level of knowledge 💯</li>
+						<li>I am a team player 👨‍💻 👩‍💻</li>
+						<li>I like to learn something new 📝</li>
+						<li>Solve problems to the end 🤖</li>
+					</ul>
+					<ul class="experience">
+						<li>I worked with automation 🚗</li>
+						<li>I worked with different programming languages 🈂</li>
+						<li>I know how to build appliation architecture 🏬</li>
+						<li>I am able to work with different databases 🦾</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</foreignObject>
+</svg>
